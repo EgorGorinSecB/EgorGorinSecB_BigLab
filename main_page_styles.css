@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Quantico';
+}
+
+
+.header {
+    width: 100%;
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 4%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1000;
+
+}
+
+
+
+
+
+
+.header_logo {
+
+    font-family: 'Bebas Neue';
+    font-size: 110px;
+    font-weight: 700;
+    color: #fff;
+
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+
+    font-size: 27px;
+    text-transform: uppercase;
+
+
+
+}
+
+
+.nav_link {
+    font-family: 'Michroma';
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    border-bottom: 3px solid transparent;
+
+
+    color: #fff;
+    text-decoration: none;
+    transition: border-color .1s;
+
+}
+
+.nav_link:hover {
+    border-bottom-color: white;
+
+}
+
+
+main {
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1000;
+
+
+
+
+}
+
+
+
+
+
+.first_block {
+    font-size: 22px;
+}
+
+
+.first_block_image {
+    width: 200px;
+}
+
+.intro {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+
+.scrollLink {
+    font-family: 'Satisfy';
+    opacity: 50%;
+    font-size: 35px;
+    margin-top: 38%;
+    margin-left: 45%;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    justify-content: center;
+}
+
+.scrolllink:hover {
+    opacity: 90%;
+}
+
+
+
+
+
+.block_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+#first {
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 135px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+.text {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 9%;
+
+
+
+
+}
+
+
+.metallic-text {
+
+
+    font-family: 'Great Vibes';
+    color: #ebebeb;
+    /* Светлый цвет текста для начального эффекта металла */
+    font-size: 150px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow:
+        1px 1px 0 #bbb,
+        /* Светлый блеск */
+        2px 2px 0 #aaa,
+        /* Средний блеск */
+        3px 3px 0 #999,
+        /* Темный блеск */
+        4px 4px 0 #888,
+        /* Глубокая тень */
+        0 5px 5px rgba(0, 0, 0, 0.5);
+    /* Размытая тень для глубины */
+}
+
+
+
+.block_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 40%;
+
+
+
+}
+
+#second {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 80px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 100px;
+    float: right;
+}
+
+
+
+
+.text_2 {
+    font-size: 20px;
+    margin-left: 12%;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+
+}
+
+
+
+
+
+.block_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+#third {
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+
+.text_3 {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+
+}
+
+
+
+
+
+
+.footer {
+    background-color: black;
+    /* Light grey background */
+    padding: 20px;
+
+
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    margin: auto;
+    /* Center the table */
+    border-collapse: collapse;
+    color: #fff;
+
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+
+}

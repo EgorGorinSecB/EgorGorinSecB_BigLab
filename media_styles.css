@@ -1,0 +1,195 @@
+body {
+    background-color: grey;
+    margin-top: 0;
+    font-family: 'Quantico';
+    background: url(/photo/DALL·E\ 2024-02-02\ 20.40.46\ -\ Create\ a\ continuous\,\ seamless\ background\ design\ tailored\ for\ a\ long\ website\,\ featuring\ abstract\ interpretations\ of\ Porsche\ 911\ elements.\ The\ design\ sh.webp);
+
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
+
+.header_logo {
+
+    font-family: 'Bebas Neue';
+    font-size: 110px;
+    font-weight: 700;
+    color: #fff;
+
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+
+    font-size: 27px;
+    text-transform: uppercase;
+
+}
+
+
+.nav_link {
+    font-family: 'Michroma';
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    border-bottom: 3px solid transparent;
+
+
+    color: #fff;
+    text-decoration: none;
+    transition: border-color .1s;
+
+}
+
+.nav_link:hover {
+    border-bottom-color: white;
+
+}
+
+
+.contact_us_logo {
+    font-family: 'Bebas Neue';
+
+    justify-content: center;
+    display: flex;
+    font-size: 90px;
+
+    color: #fff;
+}
+
+
+
+
+
+.photo_line_1 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photo_line_2 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photo_line_3 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_line_4 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_line_5 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_line_6 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_line_7 {
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_line_8 {
+
+
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.footer {
+    background-color: black;
+    /* Light grey background */
+    padding: 20px;
+
+
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    margin: auto;
+    /* Center the table */
+    border-collapse: collapse;
+    color: #fff;
+
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+
+}
